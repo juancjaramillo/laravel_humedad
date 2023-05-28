@@ -1,7 +1,7 @@
 <?php
 /*-----------------------------------------------------------------------------------------
 'Descripción :Humedad Controller 
-'Autor : Juan Jaramillo . Aseo - Distrito. 
+'Autor : Juan Jaramillo 
 'Fecha de Creación :Mayo  27/2020 
 'Fecha de Modificación :
 '-------------------------------------------------------------------------------------------'
@@ -67,7 +67,7 @@ class HumedadController extends Controller
 		 // Iteramos sobre cada ciudad para obtener la humedad
         foreach ($ciudades as $ciudad) {
 			 // Hacemos una solicitud HTTP a la API de OpenWeatherMap para obtener los datos de la ciudad
-            $response = Http::get("https://api.openweathermap.org/data/2.5/weather?q={$ciudad}&appid=ee9ef08247c0c5eef508ac7828116fd8");
+            $response = Http::get("https://api.openweathermap.org/data/2.5/weather?q={$ciudad}&appid=ee9exxxxxxxxxxxx16fd8");
  
 			// Verificamos si la solicitud fue exitosa
             if ($response->successful()) {
