@@ -32,7 +32,7 @@
 		 <!-- Mapa de Google Maps -->
         <div id="map"></div>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVNS1lqK1cBs0raTgMXDpg_Rxp6C20ZQ4"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzxxxxxxxxxxxxxxxxxxp6C20ZQ4"></script>
 	 <!-- Script para cargar el mapa y los datos -->
     <script>
         function initMap() {
@@ -78,6 +78,6 @@
         google.maps.event.addDomListener(window, 'load', initMap);
     </script>
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVNS1lqK1cBs0raTgMXDpg_Rxp6C20ZQ4&callback=initMap"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIxxxxxxxxxxxxxxxx0ZQ4&callback=initMap"></script>
 </body>
 </html>
