@@ -14,7 +14,7 @@
 <body>
     <div id="map"></div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVNS1lqK1cBs0raTgMXDpg_Rxp6C20ZQ4"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=xxxxxxxxxxxxxxxxxxxxxx"></script>
     <script>
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
@@ -55,7 +55,7 @@
         }
     </script>
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVNS1lqK1cBs0raTgMXDpg_Rxp6C20ZQ4&callback=initMap"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=xxxxxxxxxxxxxxxxxxxxxxxxxx&callback=initMap"></script>
 </body>
 
 </html>
